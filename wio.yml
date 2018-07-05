@@ -8,6 +8,7 @@ pkg:
     contributors:
     - Deep Dhillon <deep@deepdhillon.ca> (https://github.com/dhillondeep)
     organization: waterloop
+    repository: https://github.com/waterloop/cosa-roboteq-sdc21xx/
     version: 1.0.0
     keywords:
     - avr

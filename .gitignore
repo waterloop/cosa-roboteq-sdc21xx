@@ -4,6 +4,7 @@
 cmake-build-debug/
 CMakeLists.txt
 dependencies.cmake
+package.json
 
 # Mac OS
 .DS_Store
