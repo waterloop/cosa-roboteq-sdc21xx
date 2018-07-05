@@ -1,0 +1,36 @@
+pkg:
+  ide: none
+
+  meta:
+    name: cosa-roboteq-sdc21xx
+    description: A wio package for Roboteq SDC21XX Brushless DC Motor Controllers
+    author: Quinton Lucyk <quinton_lucyk@yahoo.com> (https://github.com/quintonlucyk)
+    contributors:
+    - Deep Dhillon <deep@deepdhillon.ca> (https://github.com/dhillondeep)
+    organization: waterloop
+    version: 1.0.0
+    keywords:
+    - avr
+    - c
+    - c++
+    - wio
+    - cosa
+    license: MIT
+
+  config:
+    minimum_wio_version: 0.3.2
+    supported_platforms:
+    - avr
+    supported_frameworks:
+    - cosa
+  
+  compile_options:
+    platform: avr
+
+targets:
+  default: tests
+  create:
+    tests:
+      src: tests
+      framework: cosa
+      board: uno
