@@ -1,6 +1,7 @@
-#include "Cosa/Trace.hh"
-#include "Cosa/UART.hh"
-#include <SDC21XX.h>
+#include <Cosa/Trace.hh>
+#include <Cosa/UART.hh>
+
+#include <wloop/SDC21XX.h>
 
 wlp::SDC21XX sdc(Board::PWM1); //D3
 

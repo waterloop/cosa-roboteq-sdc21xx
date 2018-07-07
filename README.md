@@ -11,7 +11,7 @@ This is a wio package for controlling Roboteq SDC21XX Brushless DC motor control
 **Board**: All AVR boards supported
 
 ```bash
-wio install {{PROJECT_NAME}}@latest --save
+wio install cosa-roboteq-sdc21xx@latest --save
 ```
 
 ## Usage

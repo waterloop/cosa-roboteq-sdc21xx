@@ -10,8 +10,8 @@
  * @bug No known bugs
  */
 
-#ifndef GOOSE_CONTROLLER_SDC2160S_H
-#define GOOSE_CONTROLLER_SDC2160S_H
+#ifndef COSA_ROBOTEQ_SDC21XX_HH
+#define COSA_ROBOTEQ_SDC21XX_HH
 
 #include <Cosa/PWMPin.hh>
 
@@ -38,4 +38,4 @@ namespace wlp {
     };
 }
 
-#endif //GOOSE_CONTROLLER_SDC2160S_H
+#endif //COSA_ROBOTEQ_SDC21XX_HH

@@ -3,13 +3,13 @@ pkg:
 
   meta:
     name: cosa-roboteq-sdc21xx
-    description: A wio package for Roboteq SDC21XX Brushless DC Motor Controllers
+    description: A wio cosa package for Roboteq SDC21XX Brushless DC Motor Controllers
     author: Quinton Lucyk <quinton_lucyk@yahoo.com> (https://github.com/quintonlucyk)
     contributors:
     - Deep Dhillon <deep@deepdhillon.ca> (https://github.com/dhillondeep)
     organization: waterloop
     repository: https://github.com/waterloop/cosa-roboteq-sdc21xx/
-    version: 1.0.0
+    version: 1.0.1
     keywords:
     - avr
     - c

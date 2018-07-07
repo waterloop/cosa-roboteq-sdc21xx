@@ -11,7 +11,7 @@
  */
 
 #include <Cosa/Trace.hh>
-#include "SDC21XX.h"
+#include "wloop/SDC21XX.h"
 
 #define SCALE_1 2.4693877551  // (184-63)/49
 #define SCALE_2 1.26530612245 // (253-191)/49
